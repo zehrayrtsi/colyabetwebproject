@@ -21,7 +21,6 @@ const UsersReportsScreen = () => {
         <div style={{ fontSize: 32, fontWeight: 600 }}>Raporlar</div>
       </Row>
       <div style={{ width: "100%" }}>
-        {/*TODO: ADD TABS THEME COLOR IN APP.JSX*/}
         <Tabs
           onChange={(tabKey) => {
             setCurrentTab(tabKey);
